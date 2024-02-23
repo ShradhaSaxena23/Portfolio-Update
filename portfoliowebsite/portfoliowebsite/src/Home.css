@@ -1,0 +1,15 @@
+.glowing-button {
+  animation: glow 1.5s infinite alternate;
+  transition: border-color 0.3s;
+}
+
+@keyframes glow {
+  0% {
+    border-color: rgba(255, 174, 0, 0.655);
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.5);
+  }
+  100% {
+    border-color: rgb(255, 128, 0);
+    box-shadow: 0 0 20px rgb(255, 213, 0);
+  }
+}
